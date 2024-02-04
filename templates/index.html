@@ -1,0 +1,15 @@
+<form action="{{url_for('add_record')}}" method="POST" >
+    <label for="firstname">First name: </label>
+    <input type="text" name="firstname" id="fname" required>
+    <br>
+    <label for="lastname">Last name: </label>
+    <input type="text" name="lastname" id="lname" required>
+    <br>
+    <label for="email">email: </label>
+    <input type="email" name="email"  id="email" required>
+    <br>
+    <label for="password">password: </label>
+    <input type="password" name="password"  id="pass" required>
+    <br>
+    <input type="submit" value="Login!">
+</form>
